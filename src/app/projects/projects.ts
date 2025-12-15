@@ -79,12 +79,21 @@ interface Project {
 }
 
 .modal {
-  background: #fff;
-  max-width: 540px;
-  width: 90%;
-  padding: 20px;
-  border-radius: 12px;
-  position: relative;
+  background: #1e1e1e;
+  color: #eaeaea;
+}
+
+.modal h3 {
+  color: #ffffff;
+}
+
+.modal p {
+  color: #cfcfcf;
+  line-height: 1.6;
+}
+
+.modal .hint {
+  color: #9a9a9a;
 }
 
 .modal-img {
@@ -104,10 +113,7 @@ interface Project {
   cursor: pointer;
 }
 
-.hint {
-  font-size: .8rem;
-  color: #666;
-}
+
 
 /* ===== IMAGE ZOOM ===== */
 .image-backdrop {
